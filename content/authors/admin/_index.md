@@ -1,77 +1,83 @@
 ---
 # Display name
-title: Nelson Bighetti
+name: Amandeep Kaur
+
+# Username (this should match the folder name)
+authors:
+- admin
 
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position/tagline
-role: Professor of Artificial Intelligence
+# Role/position
+role: Assistant Professor 
 
-# Organizations/Affiliations to show in About widget
-organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+# Organizations/Affiliations
+organizations: 
+- name: Electrical Engineering
+- name: IIT Jodhpur
+  url: ""
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+#bio: My research interests include distributed robotics, mobile #computing and programmable matter.
 
-# Interests to show in About widget
-interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
-
-# Education to show in About widget
-education:
+Interests:
+- Analog/Mixed Signal IC Design
+- Data Converters (ADC, DAC)
+- Interfacing Circuits/Readout Electronics
+- Biomedical Circuits and Systems
+- CMOS Image Sensors
+Education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
+  - course: PhD in Electrical Engineering
+    institution: IIT Delhi
+    year: 2019
+  - course: M.Tech in VLSI Design
+    institution: Thapar University
     year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: B.Tech in ECE
+    institution: Kurukshetra University
+    year: 2010
 
 # Social/Academic Networking
-# For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
+# For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
-#   form "mailto:your-email@example.com" or "/#contact" for contact widget.
+#   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
 - icon: envelope
   icon_pack: fas
-  link: '/#contact'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
-  icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-- icon: github
-  icon_pack: fab
-  link: https://github.com/gcushen
+  link: '#contact'  # For a direct email link, use "mailto:amandeepkaur@iitj.ac.in".
+#- icon: twitter
+ # icon_pack: fab
+ # link: https://twitter.com/GeorgeCushen
+- icon: google-scholar
+  icon_pack: ai
+  link: https://scholar.google.com/citations?user=3DaFzG0AAAAJ&hl=en
 - icon: linkedin
   icon_pack: fab
-  link: https://www.linkedin.com/
-
-# Link to a PDF of your resume/CV.
-# To use: copy your resume to `static/media/resume.pdf`, enable `ai` icons in `params.toml`, 
-# and uncomment the lines below.
+  link: https://www.linkedin.com/in/dr-amandeep-kaur-465890a3/
+#- icon: github
+#  icon_pack: fab
+#  link: https://github.com/gcushen
+# Link to a PDF of your resume/CV from the About widget.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.  
 # - icon: cv
 #   icon_pack: ai
-#   link: media/resume.pdf
+#   link: files/cv.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
-
-# Highlight the author in author lists? (true/false)
-highlight_name: false
+  
+# Organizational groups that you belong to (for People widget)
+#   Set this to `[]` or comment out if you are not using People widget.  
+#user_groups:
+#- Researchers
+#- Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am an Assistant Professor in the department of Electrical Engineering, Indian Institute of Technology Jodhpur. My research is focussed on analog and mixed signal integrated circuit design which is generic as well as application specific like CMOS image sensors and biomedical circuits and systems.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I received my doctoral degree in the department of Electrical Engineering from Indian Institute of Technology Delhi, 2019. During my Ph.D., I have designed and characterized various integrated circuits like comparators, LDO, single stage ADC, two stage ADC, hybrid ADC, and two complete camera systems for high speed and low power applications. The work is published in elite transactions and conferences.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+If anyone is interested in the area of analog and mixed signal VLSI design, then feel free to contact me.
+
