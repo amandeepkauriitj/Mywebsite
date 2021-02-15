@@ -1,18 +1,18 @@
 +++
-# A Recent and Upcoming Talks section created with the Pages widget.
-# This section displays recent talks from `content/talk/`.
+# A Recent Blog Posts section created with the Pages widget.
+# This section displays recent blog posts from `content/post/`.
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 70  # Order that this section will appear.
+active = true  # Activate this widget? true/false
+weight = 20  # Order that this section will appear.
 
-title = "Recent & Upcoming Talks"
+title = "Recent news"
 subtitle = ""
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
-  page_type = "talk"
+  page_type = "recent"
   
   # Choose how much pages you would like to display (0 = all pages)
   count = 5
@@ -29,9 +29,7 @@ subtitle = ""
     category = ""
     publication_type = ""
     exclude_featured = false
-    exclude_past = false
-    exclude_future = false
-    
+  
 [design]
   # Toggle between the various page layout types.
   #   1 = List
@@ -45,7 +43,7 @@ subtitle = ""
   #   Uncomment (by removing `#`) an option to apply it.
   #   Choose a light or dark text color by setting `text_color_light`.
   #   Any HTML color name or Hex value is valid.
-
+  
   # Background color.
   # color = "navy"
   
@@ -66,4 +64,13 @@ subtitle = ""
  
  # CSS class.
  css_class = ""
+
 +++
+* **Jan 2021**: Congratulations Bibhudutta for an accepted paper in ISCAS 2021.
+* **October 2020**: Received SRG from SERB for programmable camera.
+* **August 2020**: Secured BIRAC-BIG GRANT for the design of an endoscopic camera system.
+* **May 2020**: Our paper on "On-array compressive acquisition in CMOS image sensors using accumulated spatial gradients" has been accepted in IEEE Transactions on Circuits and Systems for Video Technology.
+* **January 2020**: Our paper on, "A CMOS Image Sensor with column-Parallel cyclic-SAR ADC" has been accepted in IEEE International Symposium on Circuits and Systems (ISCAS is the flagship conference of circuits and systems society).
+* **November 2019**: Organised a 2-days Workshop on "Analog and Digital Circuit Design using Cadence EDA tool" at IIT Jodhpur.
+* **October 2019**: Our work on "A reconfigurable cyclic ADC for biomedical applications", has been presented in **IEEE Biomedical Circuits and Systems Conference**, Japan, 2019.
+* **June 2019**: Our work on "A power efficient image sensor readout with on-chip delta-interpolation using reconfigurable ADC", has been published in **IEEE Sensors Journal**, 2019.
